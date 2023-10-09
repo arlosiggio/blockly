@@ -696,9 +696,9 @@ export class Scrollbar {
       show = this.isVisible();
     }
     if (show) {
-      this.outerSvg.setAttribute('display', 'block');
+      this.outerSvg.setAttribute('style', 'display: block');
     } else {
-      this.outerSvg.setAttribute('display', 'none');
+      this.outerSvg.setAttribute('style', 'display: none');
     }
   }
 
